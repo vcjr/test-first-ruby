@@ -9,7 +9,7 @@ please see the [setup instructions][setup] document.
 
 ## Setting up the Project
 
-If you're using Cloud9, you'll need to create a new project. 
+If you're using Cloud9, you'll need to create a new project.
 **On the project creation page, where it says "Clone from Git or Mercurial URL", paste
 in https://github.com/appacademy/test-first-ruby**.
 
@@ -25,7 +25,7 @@ directory.
 
 To run the specs, you'll need to install RSpec. First, run `gem install bundler` in the root directory of your project. Then, run `bundle install`. To run a single spec file, run a command like this: `bundle exec rspec spec/00_hello_spec.rb`. To run all of the specs at once, run `bundle exec rspec`.
 
-**What's happening here?** 
+**What's happening here?**
 In the root directory of the project, you'll see a file called "Gemfile". This is a manifest of all of the Ruby gems needed to make your project work. `bundle install` is a command you'll use often to install all of the gems you need to run a program. `gem install bundler` installs the bundler gem, which is what makes `bundle install` work. `bundle exec rspec` simply tells your machine to run the version of RSpec specified in the Gemfile.
 
 # Resources
